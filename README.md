@@ -8,6 +8,15 @@ base image: python:3.8
 
 node version: 10
 
+## Build
+
+You can use Dockerfile to build this image.
+
+```bash
+# build scripts
+docker build . -t py3-node:10
+```
+
 ## Test Image
 
 ```bash
